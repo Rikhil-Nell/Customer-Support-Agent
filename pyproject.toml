@@ -1,0 +1,15 @@
+[project]
+name = "CustomerSupportAgent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastrtc[stt,tts,vad]>=0.0.19",
+    "gradio>=5.23.3",
+    "openai>=1.70.0",
+    "pandas>=2.2.3",
+    "pydantic>=2.11.2",
+    "pydantic-ai>=0.0.52",
+    "pydantic-settings>=2.8.1",
+]
